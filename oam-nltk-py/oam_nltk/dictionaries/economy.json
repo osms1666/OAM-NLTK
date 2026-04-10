@@ -1,0 +1,11 @@
+{
+  "name": "economy",
+  "description": "Macroeconomic, trade and labour market terminology.",
+  "categories": {
+    "Macro": ["gdp", "inflation", "growth", "recession", "deficit", "debt"],
+    "Trade": ["exports", "imports", "tariffs", "trade", "wto", "fta"],
+    "Labour": ["employment", "unemployment", "wages", "informal sector", "productivity"],
+    "Finance": ["banking", "credit", "interest rate", "monetary", "central bank"],
+    "Development": ["poverty", "inequality", "sdg", "aid", "remittances"]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "environmental",
+  "description": "Custom dictionary: environmental",
+  "categories": {
+    "Climate": [
+      "climate change",
+      "global warming",
+      "greenhouse gas",
+      "emissions",
+      "carbon",
+      "ndc",
+      "net zero",
+      "1.5 degrees",
+      "paris agreement"
+    ],
+    "Adaptation": [
+      "adaptation",
+      "resilience",
+      "vulnerability",
+      "early warning",
+      "drought",
+      "flood",
+      "disaster risk"
+    ],
+    "Mitigation": [
+      "mitigation",
+      "renewable",
+      "solar",
+      "wind",
+      "hydro",
+      "reforestation",
+      "afforestation",
+      "carbon sink"
+    ],
+    "Biodiversity": [
+      "biodiversity",
+      "ecosystem",
+      "habitat",
+      "species",
+      "protected area",
+      "wetland",
+      "forest",
+      "mangrove"
+    ],
+    "Finance": [
+      "green finance",
+      "climate finance",
+      "carbon credit",
+      "green bond",
+      "gcf",
+      "gef",
+      "loss and damage"
+    ],
+    "Mainstreaming": [
+      "mainstreaming",
+      "cross-cutting",
+      "integration",
+      "policy coherence",
+      "sdg"
+    ]
+  }
+}

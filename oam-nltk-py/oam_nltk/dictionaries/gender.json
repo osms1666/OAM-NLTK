@@ -1,0 +1,11 @@
+{
+  "name": "gender",
+  "description": "Gender, women's empowerment, GBV and intersectional terms.",
+  "categories": {
+    "Groups": ["women", "girls", "men", "boys", "lgbtq", "non-binary", "female-headed"],
+    "Rights": ["equality", "empowerment", "rights", "discrimination", "parity"],
+    "GBV": ["gbv", "violence", "harassment", "abuse", "femicide", "fgm"],
+    "Economic": ["unpaid care", "wage gap", "labour force", "financial inclusion"],
+    "Health": ["maternal", "reproductive", "srhr", "family planning"]
+  }
+}

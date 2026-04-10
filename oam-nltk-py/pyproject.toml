@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oam-nltk"
+version = "0.2.0"
+description = "OAM Natural Language Toolkit -- network systems modelling of large text bases over time and space."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "Mingrui Hu" },
+  { name = "Oskar Skorge" },
+]
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scikit-learn>=1.4",
+  "scipy>=1.11",
+  "nltk>=3.8",
+  "gensim>=4.3",
+  "networkx>=3.2",
+  "pyvis>=0.3.2",
+  "plotly>=5.18",
+  "streamlit>=1.32",
+  "pdfminer.six>=20231228",
+  "python-docx>=1.1",
+  "beautifulsoup4>=4.12",
+  "langdetect>=1.0.9",
+  "vaderSentiment>=3.3.2",
+  "click>=8.1",
+  "tqdm>=4.66",
+  "pyarrow>=15.0",
+]
+
+[project.optional-dependencies]
+ocr = ["pdf2image>=1.17", "pytesseract>=0.3.10"]
+spacy = ["spacy>=3.7"]
+lda-viz = ["pyLDAvis>=3.4"]
+all = ["oam-nltk[ocr,spacy,lda-viz]"]
+dev = ["pytest>=8.0", "ruff>=0.3"]
+
+[project.scripts]
+oam-nltk = "oam_nltk.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["oam_nltk*"]
+
+[tool.setuptools.package-data]
+"oam_nltk.dictionaries" = ["*.json"]

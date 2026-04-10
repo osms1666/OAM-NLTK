@@ -1,0 +1,11 @@
+{
+  "name": "health",
+  "description": "Public health and health systems.",
+  "categories": {
+    "Systems": ["primary care", "hospital", "clinic", "health worker", "uhc"],
+    "Diseases": ["malaria", "hiv", "tuberculosis", "covid", "cholera", "ncds"],
+    "MCH": ["maternal", "neonatal", "child health", "immunization", "vaccine"],
+    "Nutrition": ["stunting", "wasting", "malnutrition", "micronutrient"],
+    "Determinants": ["water", "sanitation", "hygiene", "wash", "air quality"]
+  }
+}

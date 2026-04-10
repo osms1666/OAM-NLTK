@@ -1,0 +1,11 @@
+{
+  "name": "governance",
+  "description": "Governance, rule of law, institutions and public administration.",
+  "categories": {
+    "Institutions": ["parliament", "judiciary", "executive", "ministry", "agency", "commission"],
+    "Rule of Law": ["rule of law", "corruption", "transparency", "accountability", "oversight", "audit"],
+    "Participation": ["civil society", "participation", "consultation", "voice", "representation"],
+    "Decentralisation": ["decentralisation", "local government", "district", "municipal", "devolution"],
+    "Public Finance": ["budget", "expenditure", "revenue", "taxation", "debt", "fiscal"]
+  }
+}

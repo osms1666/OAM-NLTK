@@ -1,0 +1,11 @@
+{
+  "name": "conflict",
+  "description": "Conflict, peace, security and fragility vocabulary.",
+  "categories": {
+    "Actors": ["army", "militia", "rebels", "insurgents", "police", "peacekeepers"],
+    "Events": ["clash", "attack", "ceasefire", "negotiation", "agreement", "displacement"],
+    "Impacts": ["casualties", "idp", "refugees", "humanitarian", "famine"],
+    "Drivers": ["ethnic", "religious", "resource", "border", "election"],
+    "Peacebuilding": ["mediation", "reconciliation", "ddr", "peacekeeping", "dialogue"]
+  }
+}

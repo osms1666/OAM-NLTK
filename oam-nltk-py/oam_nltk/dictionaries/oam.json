@@ -1,0 +1,25 @@
+{
+  "name": "oam",
+  "description": "Original OAM coverage lexicon (Hu & Skorge 2025) — demographic, geographic, thematic and ownership/partnerships.",
+  "categories": {
+    "Demographic Groups": [
+      "women", "youth", "children", "farmers", "pastoralists",
+      "fishers", "cross-border traders", "displaced populations",
+      "refugees", "MSMEs", "men", "elderly", "disabled"
+    ],
+    "Geographic Areas": [
+      "rural areas", "urban areas", "cross-border areas", "high risk",
+      "low risk", "conflict affected", "coastal", "highlands", "lowlands", "drylands"
+    ],
+    "Thematic Areas": [
+      "governance", "jobs", "livelihoods", "digitalization", "education",
+      "food security", "health", "biodiversity", "climate change",
+      "energy transitions", "infrastructure", "water", "sanitation"
+    ],
+    "Ownership & Partnerships": [
+      "state capacity", "debt sustainability", "implementation",
+      "partnerships", "income groups", "local governance",
+      "civil society", "private sector", "donors"
+    ]
+  }
+}
