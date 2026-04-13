@@ -148,6 +148,8 @@ Built-in:
 Create your own in the Dictionary page of the dashboard or drop a JSON
 file into `oam_nltk/dictionaries/user/`.
 
+NB: This OAM-NLTK is a port of the original text modeling methodology developed by Hu & Skorge (2025) for OAM Consulting, which is currently utilized across UN entities and in policy research. This version is a simplified version that may be utilized by anyone under the MIT License.
+
 ---
 
 ## Citation
