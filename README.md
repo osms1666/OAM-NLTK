@@ -9,11 +9,6 @@ It maps the configuration of text as data across time and space and
 renders the result as an interactive, draggable network graph of
 concepts, entities and themes.
 
-Designed for tasks like tracking environmental mainstreaming in
-policy documents over a decade, mapping thematic coverage across
-country strategies, or finding hidden connections in large document
-releases.
-
 ---
 
 ## Quick start
