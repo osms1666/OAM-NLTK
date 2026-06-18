@@ -1,10 +1,8 @@
 # OAM-NLTK (Python)
 
-**Operational Analysis and Mapping -- Natural Language Toolkit**
+**Operational Analysis and Mapping - Natural Language Toolkit**
 
-A Python port and expansion of the R-based OAM NLTK (Hu & Skorge, 2025). NB: This port is based on the original text-modeling methodology developed by Hu & Skorge (2025) for OAM Consulting, which is currently used across UN entities and in policy research. This version is a simplified version that may be utilized by anyone under the MIT Open License.
-
-
+A Python port and expansion of the R-based OAM NLTK (Hu & Skorge, 2025).
 
 OAM-NLTK is a network systems modeling toolkit for large text bases.
 It maps the configuration of text as data across time and space and
@@ -145,7 +143,7 @@ Built-in:
 Create your own in the Dictionary page of the dashboard or drop a JSON
 file into `oam_nltk/dictionaries/user/`.
 
-NB: This OAM-NLTK is a port of the original text modeling methodology developed by Hu & Skorge (2025) for OAM Consulting, which is currently utilized across UN entities and in policy research. This version is a simplified version that may be utilized by anyone under the MIT License.
+NB: This OAM-NLTK is a port of the original text modeling methodology developed by Hu & Skorge (2025) for OAM Consulting. This version is a simplified version that may be utilized by anyone under the MIT License.
 
 ---
 
