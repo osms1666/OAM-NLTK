@@ -1,13 +1,9 @@
 # OAM-NLTK (Python)
 
 **Operational Analysis and Mapping - Natural Language Toolkit**
+OAM-NLTK is a network systems modeling toolkit for large text bases. This is a port of the original methodology made by Hu & Skorge (2025) for OAM Consulting, which aims to assist in the operational mapping of the configuration of text and discourse as data across time and space. The processing uses a dictionary-based co-occurrence network and a preprocessing and tokenization pipeline to streamline text, processing data in one go. We have provided some dictionary examples, but we would encourage expansions based on what patterns you seek to find in your corpus.
 
 A Python port and expansion of the R-based OAM NLTK (Hu & Skorge, 2025).
-
-OAM-NLTK is a network systems modeling toolkit for large text bases.
-It maps the configuration of text as data across time and space and
-renders the result as an interactive, draggable network graph of
-concepts, entities, and themes.
 
 ---
 
@@ -47,7 +43,7 @@ pip install -e ".[all]"
 
 ---
 
-## What it does
+## The Processing: From Raw Text to Patterns
 
 1. **Ingestion** -- reads PDF, DOCX, TXT, HTML.  Falls back to OCR for
    scanned PDFs if Tesseract is installed.
@@ -61,7 +57,7 @@ pip install -e ".[all]"
    conflict, health, economy).  Create and save your own from the
    dashboard or as JSON files.
 
-4. **Network graph** -- the centrepiece.  Builds a co-occurrence graph
+4. **Network graph** -- builds a co-occurrence graph
    weighted by PMI (pointwise mutual information).  Five switchable
    layouts: force-directed, spider-web, earth (geographic), radar
    (category sectors), hierarchical.  Rendered with pyvis -- click,
@@ -70,7 +66,7 @@ pip install -e ".[all]"
 5. **Topics** -- Gensim LDA with configurable topic count, coherence
    scoring, and optional pyLDAvis.
 
-6. **NER** -- spaCy named-entity extraction (people, organisations,
+6. **NER** -- spaCy named-entity extraction (people, organizations,
    places, dates).
 
 7. **Descriptives** -- bar charts, pie charts, heatmaps, sentiment
