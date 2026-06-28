@@ -1,9 +1,8 @@
 # OAM-NLTK (Python)
 
-**Operational Analysis and Mapping - Natural Language Toolkit**
-OAM-NLTK is a network systems modeling toolkit for large text bases. This is a port of the original methodology made by Hu & Skorge (2025) for OAM Consulting, which aims to assist in the operational mapping of the configuration of text and discourse as data across time and space. The processing uses a dictionary-based co-occurrence network and a preprocessing and tokenization pipeline to streamline text, processing data in one go. We have provided some dictionary examples, but we would encourage expansions based on what patterns you seek to find in your corpus.
+**Organizational Analysis and Mapping - Natural Language Toolkit (OAM-NLTK)**
 
-A Python port and expansion of the R-based OAM NLTK (Hu & Skorge, 2025).
+OAM-NLTK is a network systems modeling toolkit for large text bases. This is a port of the original methodology developed by Hu & Skorge (2025) for OAM Consulting, which aims to assist in the operational mapping of text and discourse as configurational data across time and space to identify patterns, clusters, and associations.
 
 ---
 
