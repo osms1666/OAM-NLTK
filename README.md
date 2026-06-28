@@ -144,8 +144,7 @@ NB: This OAM-NLTK is a port of the original text modeling methodology developed 
 
 ## Citation
 
-Hu, M. & Skorge, O. (2025). The OAM Natural Language Toolkit.
-Python port (2026): same authors.
+Hu, M. & Skorge, O. (2025). The OAM Natural Language Toolkit. 
 
 ## License
 
